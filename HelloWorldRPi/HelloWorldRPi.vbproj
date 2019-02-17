@@ -130,10 +130,21 @@
     <Compile Include="App.xaml.vb">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BinaryClock.vb" />
+    <Compile Include="Compass.vb" />
+    <Compile Include="DiscoLights.vb" />
+    <Compile Include="GravityBlob.vb" />
+    <Compile Include="JoyStickPixel.vb" />
     <Compile Include="MainPage.xaml.vb">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MultiColorScrollText.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="ReadAllSensors.vb" />
+    <Compile Include="SenseHatDemo.vb" />
+    <Compile Include="SingleColorScrollText.vb" />
+    <Compile Include="SpriteAnimation.vb" />
+    <Compile Include="WriteTemperature.vb" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -142,6 +153,8 @@
     <None Include="HelloWorldRPi_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\ColorFont.png" />
+    <Content Include="Assets\MiniMario.png" />
     <Content Include="My Project\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
